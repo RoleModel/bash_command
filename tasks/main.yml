@@ -1,0 +1,4 @@
+---
+
+- name: run {{command}}
+  shell: bash -lc '{{ command }}' chdir={{ dir }}

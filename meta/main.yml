@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: Caleb Woods
+  min_ansible_version: 1.6.6
+  platforms:
+    - name: Ubuntu
+      versions:
+        - precise
+        - trusty
+
+version: 1.0.0
