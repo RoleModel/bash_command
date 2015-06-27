@@ -8,3 +8,7 @@ Will execute the passed `command` in the passed `dir`. Useful for doing things l
     - { role: bash_command, dir: '/var/www/my_app', command: 'bundle install' }
     - { role: bash_command, dir: '/var/www/my_app', command: 'bundle exec rake db:migrate' }
 ```
+
+## License
+
+* MIT
