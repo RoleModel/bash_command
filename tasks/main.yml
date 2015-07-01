@@ -2,3 +2,4 @@
 
 - name: run {{command}}
   shell: bash -lc '{{ command }}' chdir={{ dir }}
+  when: (not single_node | bool) or ((single_node | bool) and inventory_hostname == play_hosts[0])
